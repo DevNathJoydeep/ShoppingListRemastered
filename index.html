@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>To Do</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <div class="dim" id="dim"></div>
+    <div class="addItem" id="addItem">
+      <div class="addItemHead">
+        <div class="headOne">
+          add
+        </div>
+        <div class="headTwo">
+          new item
+        </div>
+      </div>
+      <div class="data">
+        <input
+          type="text"
+          name="newName"
+          class="addInputBox"
+          placeholder="enter name"
+          id="newName"
+        />
+        <input
+          type="text"
+          name="newPrice"
+          class="addInputBox"
+          placeholder="enter price"
+          id="newPrice"
+        />
+      </div>
+      <div class="tick" id="tick">
+        <div class="addItemNow">✓</div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="header">
+        <div class="day">
+          wednesday
+        </div>
+        <div class="date">
+          april 18 2019
+        </div>
+      </div>
+
+      <div class="itemsContainer" id="itemsContainer">
+        <div class="noItem" id="noItem">
+          <div class="heading">
+            It's lonely in here.
+          </div>
+          <div class="text">
+            Click the <span class="green">+</span> button to add a new item.
+          </div>
+        </div>
+        <!-- <div class="item">
+          <div class="grid">
+            <div class="sixty">
+              <div class="name">Apple</div>
+            </div>
+            <div class="twentyFive">
+              <div class="price">
+                <input type="text" name="priceInp" class="priceInp" />
+              </div>
+            </div>
+            <div class="fifteen">
+              <div class="del">
+                X
+              </div>
+            </div>
+          </div>
+        </div>-->
+
+        <!--
+
+        <div class="item">
+          <div class="grid">
+            <div class="sixty">
+              <div class="name">Apple</div>
+            </div>
+            <div class="twentyFive">
+              <div class="price">
+                <input type="text" name="priceInp" class="priceInp" />
+              </div>
+            </div>
+            <div class="fifteen">
+              <div class="del">
+                X
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="grid">
+            <div class="sixty">
+              <div class="name">Apple</div>
+            </div>
+            <div class="twentyFive">
+              <div class="price">
+                <input type="text" name="priceInp" class="priceInp" />
+              </div>
+            </div>
+            <div class="fifteen">
+              <div class="del">
+                X
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="grid">
+            <div class="sixty">
+              <div class="name">Apple</div>
+            </div>
+            <div class="twentyFive">
+              <div class="price">
+                <input type="text" name="priceInp" class="priceInp" />
+              </div>
+            </div>
+            <div class="fifteen">
+              <div class="del">
+                X
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="grid">
+            <div class="sixty">
+              <div class="name">Apple</div>
+            </div>
+            <div class="twentyFive">
+              <div class="price">
+                <input type="text" name="priceInp" class="priceInp" />
+              </div>
+            </div>
+            <div class="fifteen">
+              <div class="del">
+                X
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="grid">
+            <div class="sixty">
+              <div class="name">Apple</div>
+            </div>
+            <div class="twentyFive">
+              <div class="price">
+                <input type="text" name="priceInp" class="priceInp" />
+              </div>
+            </div>
+            <div class="fifteen">
+              <div class="del">
+                X
+              </div>
+            </div>
+          </div>
+        </div>
+
+        -->
+      </div>
+
+      <div class="footer" id="footer">
+        <div class="add" id="openAddItemBox">
+          <div class="btn">
+            +
+          </div>
+        </div>
+        <div class="grid">
+          <div class="value" id="quantity">
+            0
+          </div>
+          <div class="tag">
+            ITEMS
+          </div>
+        </div>
+        <div class="grid">
+          <div class="value" id="total">
+            0
+          </div>
+          <div class="tag">
+            AMOUNT
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
